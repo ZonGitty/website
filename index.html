@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il mio Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #060b19;
+            color: #d1d5db;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'UnifrakturCook', cursive;
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 2rem;
+        }
+
+        .portfolio {
+            background-color: rgba(17, 24, 39, 0.7);
+            border: 1px solid #1f2937;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            max-width: 500px;
+            margin: 0 auto 1.5rem;
+        }
+
+        .portfolio p {
+            margin: 0.5rem 0;
+            line-height: 1.6;
+        }
+
+        .portfolio ul {
+            list-style: none;
+            padding: 0;
+            margin: 0.5rem 0;
+        }
+
+        .portfolio ul li {
+            margin: 0.5rem 0;
+        }
+
+        a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #93c5fd;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background-color: rgba(17, 24, 39, 0.9);
+            border: 1px solid #1f2937;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            margin-top: 1rem;
+        }
+
+        .button:hover {
+            background-color: #1f2937;
+        }
+
+        footer {
+            margin-top: 2rem;
+        }
+
+        footer small {
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .portfolio {
+                padding: 1rem;
+            }
+
+            .button {
+                padding: 0.5rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Il mio Portfolio</h1>
+        <div class="portfolio">
+            <p>Sono <strong>uno studente</strong>.</p>
+            <p>Sono nato in Italia.</p>
+            <p>Faccio informatica.</p>
+        </div>
+        <div class="portfolio">
+            <p>Ho conoscenze base di:</p>
+            <ul>
+                <li><a href="https://it.wikipedia.org/wiki/HTML5">HTML</a></li>
+                <li><a href="https://www.java.com/it/">Java</a></li>
+                <li><a href="https://it.wikipedia.org/wiki/C%2B%2B">C++</a></li>
+                <li><a href="https://it.wikipedia.org/wiki/Linguaggio_assembly">Assembly</a></li>
+            </ul>
+        </div>
+        <div class="portfolio">
+            <a href="hobby/" class="button">I miei Hobby</a>
+        </div>
+    </main>
+    <footer>
+        <small>©2025</small>
+    </footer>
+</body>
+</html>
