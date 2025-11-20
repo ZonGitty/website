@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I miei Hobby</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #060b19;
+            color: #d1d5db;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 2rem;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'UnifrakturCook', cursive;
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: stretch;
+        }
+
+        .hobbies {
+            flex: 1;
+            min-width: 300px;
+            background-color: rgba(17, 24, 39, 0.7);
+            border: 1px solid #1f2937;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+        }
+
+        .hobbies h2 {
+            font-size: 1.75rem;
+            color: #ffffff;
+            margin: 0 0 1rem;
+        }
+
+        .hobbies ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .hobbies li {
+            padding: 0.5rem 0;
+            font-size: 1.1rem;
+            color: #d1d5db;
+        }
+
+        .foto {
+            flex: 1;
+            min-width: 300px;
+            background-color: rgba(17, 24, 39, 0.7);
+            border: 1px solid #1f2937;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .foto img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 0.5rem;
+            border: 1px solid #1f2937;
+        }
+
+        a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #93c5fd;
+        }
+
+        footer {
+            margin-top: 2rem;
+        }
+
+        footer small {
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+        .button {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background-color: rgba(17, 24, 39, 0.9);
+            border: 1px solid #1f2937;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            margin-top: 1rem;
+        }
+
+        .button:hover {
+            background-color: #1f2937;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hobbies, .foto {
+                min-width: 100%;
+                max-width: 500px;
+            }
+
+            .foto img {
+                max-width: 100%;
+            }
+
+            body {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .hobbies h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>I miei Hobby</h1>
+        <div class="container">
+            <div class="hobbies">
+                <h2>Cosa mi piace fare</h2>
+                <ul>
+                    <li>Giocare a videogiochi</li>
+                    <li>Sollevamento pesi</li>
+                    <li>Fare PC Building (se ho i soldi)</li>
+                    <li>Configurare server: Minecraft, Assetto Corsa, Counter-Strike</li>
+                    <li>Passare tempo con gli amici</li>
+                    <li>Ascoltare musica nel tempo libero</li>
+                </ul>
+                <a href="/index.html" class="button">Torna Indietro</a>
+            </div>
+            <div class="foto">
+                <img src="/images/minecraft.webp" alt="Minecraft Server">
+                <img src="/images/CounterStrike.webp" alt="Counter-Strike">
+                <img src="/images/assetto.webp" alt="Assetto Corsa">
+                <img src="/images/gamingpc.webp" alt="Gaming PC Build">
+                <img src="/images/CS2esport.webp" alt="CS2 Esports">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <small>©2025</small>
+    </footer>
+</body>
+</html>
